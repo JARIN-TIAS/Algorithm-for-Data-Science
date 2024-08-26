@@ -16,3 +16,10 @@ X = df.drop(columns=columns_to_drop)
 
 4. # get.dummies(X['column_name']).head(10)
 pd.get_dummies: This is a function in pandas that converts categorical variables into dummy/indicator variables. This process is also known as one-hot encoding.
+
+
+5. #sort_values(ascending=False) Explained Simply
+    Purpose: To sort data in descending order.
+    Usage: When you have a DataFrame or Series and you want to arrange the values from highest to lowest.
+    Parameters:
+        ascending=False: This specifies that you want to sort in descending order (i.e., from largest to smallest).
