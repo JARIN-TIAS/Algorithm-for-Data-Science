@@ -12,3 +12,7 @@ In this context, axis=1 is used because you want to remove a column (i.e., 'inco
 3. # If I want to drop  multiple colum # Drop multiple columns
 columns_to_drop = ['education', 'city']
 X = df.drop(columns=columns_to_drop)
+
+
+4. # get.dummies(X['column_name']).head(10)
+pd.get_dummies: This is a function in pandas that converts categorical variables into dummy/indicator variables. This process is also known as one-hot encoding.
